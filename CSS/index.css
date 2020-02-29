@@ -1,5 +1,6 @@
 Body{
     background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 #menu{
@@ -7,14 +8,41 @@ Body{
     margin-top: 50px;
 }
 
+#menu{
+	height:1.4cm;
+	background-color:#0A2239;
+	width:100%;
+	position:fixed;
+	z-index:9999;
+	box-sizing: border-box;
+}
+
 ul {
    
 
 }
 
-li {
-    color: white;
+li,a {
     list-style: none;
     display: inline;
     padding-left: 0px;
+}
+
+#menu li a:link{
+	color: white;
+	text-decoration:none;
+	padding:10px;
+	margin: 1px 1px 1px 1px;
+}
+#menu li a:visited{
+	color:#fff;
+}
+
+#menu ul li a:hover{
+    background:#12c7e0;
+    font-size: 12pt;
+	transition: all 0.90s;
+	border-radius: 3px 3px 3px 3px;
+	width:100%;
+	height:20%;
 }
