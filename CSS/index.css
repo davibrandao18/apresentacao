@@ -41,7 +41,7 @@ li,a {
     margin: 0px, 0px, 0px, 0px;
 	position:fixed;
 	z-index:9999;
-    box-sizing: border-box;
+    box-sizing: border-box;                                                                                                                                                                                         
     transition: heigth 2s, width 2s;
 }
 #menu li a:link{
@@ -54,10 +54,10 @@ li,a {
 	color: #ffff;
 }
 #menu li a:hover{
-    background-color: rgba(18, 199, 224, 0.1);
+    /*background-color: rgba(18, 199, 224, 0.1);*/
     color:#12c7e0;
     border-radius: 3px 3px 3px 3px;
-    border: 1px solid #12c7e0;
+    border-bottom: 1px solid #12c7e0;
 }
 
 #conteudo{
