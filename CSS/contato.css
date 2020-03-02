@@ -1,0 +1,16 @@
+.contato {
+    margin-top: -5%;
+    width: 70px;
+    height: 60px;
+    background: #12c7e0;
+    transition: width 2s;
+    border-radius: 12px 12px;
+}   
+
+.contato:hover {
+    width: 300px;
+}
+
+.icon {
+    d;
+}

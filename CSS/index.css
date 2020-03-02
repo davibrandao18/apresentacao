@@ -107,7 +107,7 @@ Body{
     transition: transform 2s;
 }
 
-#logo:hover{
+.logo:hover{
     transform: rotate(360deg);
   }
 
