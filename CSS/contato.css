@@ -1,16 +1,67 @@
+
+.conteudo {
+    display: grid;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+#container {
+    width: 700px;
+    margin-left: 20%;
+}
+
+#container li {
+    height: 80px;
+    list-style: none;
+    margin-top: 40px;
+}
+
 .contato {
     margin-top: -5%;
     width: 70px;
     height: 60px;
-    background: #12e050;
+    background: #202020;
     transition: width 2s;
     border-radius: 12px 12px;
+    display: flex;
 }   
 
 .contato:hover {
     width: 300px;
 }
 
-.icon {
-    d;
+.imagem {
+    display: flex;
+}
+
+.setinha {
+    align-self: center;
+    transition: all;
+    z-index: -1;
+
+}
+
+.imagem a svg {   
+    max-width: 60px;
+    width: 60px;
+}
+
+.texto {
+    align-self: center;
+    display: flex;
+}
+
+.texto svg {
+    text-align: center;
+    fill: #fff;
+}
+
+.texto p {
+    text-align: center;
+    margin: 0; /*top right bottom left*/
+    align-items: center;
+    width: 170px;
 }
