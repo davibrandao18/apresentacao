@@ -65,3 +65,38 @@
     align-items: center;
     width: 170px;
 }
+
+.oi{
+    display: -webkit-box;
+    padding: 0;
+    margin: 0;
+    align-items: left;
+    width: 15vw;
+    height: 30vh;
+}
+.oi h4 {
+    color: #202020;
+    margin-right: 10%;
+}
+
+.caixa1 {
+    margin-top:3%;
+    width:6cm;
+    height:1cm;
+    border-radius: 5px 5px 5px 5px;
+}
+.caixa2 {
+    margin-top:3%;
+    width:6cm;
+    height:2cm;
+    border-radius: 5px 5px 5px 5px;
+}
+button{
+    margin-top:5%;
+    background-color:#202020;
+    border: 1px solid;
+    border-radius: 5px 5px 5px 5px;
+    font-size:19pt;
+    color:#fff;
+    width: 155px;
+    }
